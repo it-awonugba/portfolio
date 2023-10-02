@@ -4,14 +4,14 @@ import { SiUdacity, SiPluralsight } from "react-icons/si";
 
 function Hero() {
   return (
-    <section className="flex flex-col py-24">
+    <section className="flex flex-col py-32">
       <h1 className="font-extrabold text-5xl md:text-8xl">Isaac Awonugba</h1>
       <p className="font-semibold text-3xl md:text-5xl text-accent">
         Frontend Developer
       </p>
       <p className="text-xl py-16 max-w-4xl">
-        I am passionate about building accessible, scalable and functional
-        applications using Typescript, Nextjs and React.
+        I am passionate about building accessible, scalable, secure and
+        functional applications using Typescript, Nextjs and React.
       </p>
       <p className="flex flex-col gap-3 md:flex-row md:space-x-16">
         <span className="flex flex-row items-center space-x-4">

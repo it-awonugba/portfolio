@@ -7,7 +7,7 @@ import {
   TbBrandTypescript,
   TbBrandHtml5,
 } from "react-icons/tb";
-import { SiTailwindcss } from "react-icons/si";
+import { SiTailwindcss, SiWebpack } from "react-icons/si";
 import { FaSass, FaPhp, FaCss3Alt, FaShopify } from "react-icons/fa";
 import Skill from "./Skill";
 
@@ -50,8 +50,8 @@ function Skills() {
     },
     {
       id: 8,
-      title: "Tailwindcss",
-      icon: <SiTailwindcss className="w-14 h-14 lg:w-24 lg:h-24" />,
+      title: "CSS",
+      icon: <FaCss3Alt className="w-14 h-14 lg:w-24 lg:h-24" />,
     },
     {
       id: 9,
@@ -60,22 +60,35 @@ function Skills() {
     },
     {
       id: 10,
-      title: "PHP",
-      icon: <FaPhp className="w-14 h-14 lg:w-24 lg:h-24" />,
+      title: "Tailwindcss",
+      icon: <SiTailwindcss className="w-14 h-14 lg:w-24 lg:h-24" />,
     },
     {
       id: 11,
-      title: "CSS",
-      icon: <FaCss3Alt className="w-14 h-14 lg:w-24 lg:h-24" />,
+      title: "PHP",
+      icon: <FaPhp className="w-14 h-14 lg:w-24 lg:h-24" />,
     },
     {
       id: 12,
       title: "Shopify",
       icon: <FaShopify className="w-14 h-14 lg:w-24 lg:h-24" />,
     },
+    {
+      id: 13,
+      title: "Webpack",
+      icon: <SiWebpack className="w-14 h-14 lg:w-24 lg:h-24" />,
+    },
+    {
+      id: 14,
+      title: "Jest",
+    },
+    {
+      id: 15,
+      title: "Enzymejs",
+    },
   ];
   return (
-    <section className="flex flex-col space-y-6">
+    <section className="flex flex-col space-y-8 py-24">
       <h2 className="font-bold text-4xl ">Tools and frameworks </h2>
       <p>
         Over the years, I have learnt and worked with the following tools and

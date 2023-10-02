@@ -1,9 +1,9 @@
-type SkillType = {
-  title: string;
-  icon: JSX.Element;
-};
-
-function Skill({ title, icon }: SkillType) {
+import { SkillType } from "@/types/types";
+import { CgUnavailable } from "react-icons/cg";
+function Skill({
+  title,
+  icon = <CgUnavailable className="w-14 h-14 lg:w-24 lg:h-24" />,
+}: SkillType) {
   return (
     <div className="flex flex-col">
       {icon}
