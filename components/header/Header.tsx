@@ -11,7 +11,7 @@ export default function Header() {
   const pathname = usePathname();
 
   return (
-    <header className="flex flex-row justify-between z-0">
+    <header className="flex flex-row justify-between mt-4 items-center z-0">
       <Link href="/">
         <Image
           className="logo rounded-full outline outline-accent"
