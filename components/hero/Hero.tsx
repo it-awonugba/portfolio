@@ -22,7 +22,7 @@ function Hero() {
             rel="noopener noreferrer"
             target="_blank"
           >
-            <BiLinkExternal className="styled" />
+            <BiLinkExternal className="text-accent" />
           </Link>
         </span>
         <span className="flex flex-row items-center space-x-4">
@@ -32,7 +32,7 @@ function Hero() {
             rel="noopener noreferrer"
             target="_blank"
           >
-            <BiLinkExternal className="styled" />
+            <BiLinkExternal className="text-accent" />
           </Link>
         </span>
       </p>
