@@ -26,13 +26,13 @@ export default function Header() {
       <nav className="z-0">
         <section className="mobile-menu flex lg:hidden">
           <div
-            className="space-y-1.5 absolute right-0 top-0 py-8 px-6"
+            className="align-middle"
             onClick={() => {
               setCollapse(true);
             }}
           >
             <span className="block h-0.5 w-6 bg-accent"></span>
-            <span className="block h-0.5 w-6 bg-accent"></span>
+            <span className="block h-0.5 my-1.5 w-6 bg-accent"></span>
             <span className="block h-0.5 w-6 bg-accent"></span>
           </div>
           <div
