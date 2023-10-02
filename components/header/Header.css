@@ -76,8 +76,8 @@ nav .menu {
     position: initial;
   }
 
-  .menu .active {
-    border: 1px solid blue;
-    background-color: blueviolet;
+  .menu .active,
+  .menu li:hover {
+    background-color: rgb(var(--accent-color-1));
   }
 }
