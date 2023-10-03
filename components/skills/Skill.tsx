@@ -5,7 +5,7 @@ function Skill({
   icon = <CgUnavailable className="w-14 h-14 lg:w-24 lg:h-24" />,
 }: SkillType) {
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col items-center">
       {icon}
       <span>{title}</span>
     </div>
