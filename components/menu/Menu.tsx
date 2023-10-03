@@ -57,17 +57,29 @@ export default function Menu() {
       </section>
 
       <ul className="hidden gap-0 lg:flex">
-        <li className={`rounded-md hover:bg-accent p-0`}>
+        <li
+          className={`rounded-md  p-0 hover:bg-accent ${
+            pathname === "/" ? "bg-accent" : null
+          }`}
+        >
           <Link className="block py-3.5 px-8" href="/">
             Home
           </Link>
         </li>
-        <li className="rounded-md hover:bg-accent p-0">
+        <li
+          className={`rounded-md p-0 hover:bg-accent ${
+            pathname === "/projects" ? "bg-accent" : null
+          }`}
+        >
           <Link className="block py-3.5 px-8" href="/projects">
             Projects
           </Link>
         </li>
-        <li className="rounded-md hover:bg-accent p-0">
+        <li
+          className={`rounded-md p-0 hover:bg-accent ${
+            pathname === "/contact" ? "bg-accent" : null
+          }`}
+        >
           <Link className="block py-3.5 px-8" href="/contact">
             Contact
           </Link>
