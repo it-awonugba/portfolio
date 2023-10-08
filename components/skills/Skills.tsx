@@ -6,6 +6,7 @@ import {
   TbBrandNodejs,
   TbBrandTypescript,
   TbBrandHtml5,
+  TbBrandFigma
 } from "react-icons/tb";
 import { SiTailwindcss, SiWebpack } from "react-icons/si";
 import { FaSass, FaPhp, FaCss3Alt, FaShopify } from "react-icons/fa";
@@ -80,21 +81,26 @@ function Skills() {
     },
     {
       id: 14,
-      title: "Jest",
+      title: "Figma",
+      icon: <TbBrandFigma className="w-14 h-14 lg:w-24 lg:h-24" />,
     },
     {
       id: 15,
+      title: "Jest",
+    },
+    {
+      id: 16,
       title: "Enzymejs",
     },
   ];
   return (
-    <section className="flex flex-col space-y-8 py-24">
-      <h2 className="font-bold text-4xl ">Tools and frameworks </h2>
+    <section className="flex flex-col text-white space-y-8 py-24">
+      <h2 className="font-bold text-4xl">Tools and frameworks</h2>
       <p>
         Over the years, I have learnt and worked with the following tools and
         frameworks, some while working with traditional PHP and others after
-        transitioning into a Shopify Developer, fullstack or frontend
-        development role.
+        transitioning into a Shopify Developer, fullstack and frontend
+        development roles.
       </p>
       <div className="flex flex-row flex-wrap gap-8 justify-center text-center">
         {skillsArray.map((s) => (
