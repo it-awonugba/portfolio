@@ -14,9 +14,9 @@ export default function Menu() {
             setCollapse(true);
           }}
         >
-          <span className="block h-0.5 w-6 bg-accent"></span>
-          <span className="block h-0.5 my-1.5 w-6 bg-accent"></span>
-          <span className="block h-0.5 w-6 bg-accent"></span>
+          <span className="block h-0.5 w-6 bg-white"></span>
+          <span className="block h-0.5 my-1.5 w-6 bg-white"></span>
+          <span className="block h-0.5 w-6 bg-white"></span>
         </div>
         <div
           className={`z-40 py-4 px-8 right-0 top-0 absolute h-screen bg-accent ${
@@ -30,7 +30,7 @@ export default function Menu() {
             }}
           >
             <svg
-              className="h-8 w-8 text-gray-600"
+              className="h-8 w-8 text-white"
               viewBox="0 0 24 24"
               fill="none"
               stroke="currentColor"
@@ -42,7 +42,7 @@ export default function Menu() {
               <line x1="6" y1="6" x2="18" y2="18" />
             </svg>
           </div>
-          <ul className="space-y-4 mt-12 w-40">
+          <ul className="space-y-4 text-white mt-12 w-40">
             <li className="rounded-md hover:bg-accent p-0">
               <Link href="/">Home</Link>
             </li>
@@ -62,7 +62,7 @@ export default function Menu() {
             pathname === "/" ? "bg-accent" : null
           }`}
         >
-          <Link className="block py-3.5 px-8" href="/">
+          <Link className="block text-white py-3.5 px-8" href="/">
             Home
           </Link>
         </li>
@@ -71,7 +71,7 @@ export default function Menu() {
             pathname === "/projects" ? "bg-accent" : null
           }`}
         >
-          <Link className="block py-3.5 px-8" href="/projects">
+          <Link className="block text-white py-3.5 px-8" href="/projects">
             Projects
           </Link>
         </li>
@@ -80,7 +80,7 @@ export default function Menu() {
             pathname === "/contact" ? "bg-accent" : null
           }`}
         >
-          <Link className="block py-3.5 px-8" href="/contact">
+          <Link className="block text-white py-3.5 px-8" href="/contact">
             Contact
           </Link>
         </li>
