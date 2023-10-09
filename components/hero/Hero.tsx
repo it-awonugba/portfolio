@@ -1,6 +1,5 @@
 import Image from "next/image";
 import { SiUdacity, SiPluralsight } from "react-icons/si";
-import {  FaGraduationCap } from "react-icons/fa";
 import ScrumAssemblyLogo from "../../assets/img/scrumassembly.png";
 import IconText from "../iconText/IconText";
 
@@ -10,19 +9,22 @@ function Hero() {
       id: 1,
       institution: "Udacity sponsored by Bertelsmann",
       icon: <SiUdacity className="w-10 h-10"/>,
-      certificate: "Frontend Web Development Nanodegree"
+      certificate: "Frontend Web Development Nanodegree",
+      certificateAddress: "https://confirm.udacity.com/e/48a2396a-c38c-11ed-ae7e-3b117adf5f13"
     },
     {
       id: 2,
       institution: "Pluralsight sponsored by Meta",
       icon: <SiPluralsight className="w-10 h-10"/>,
-      certificate: "React Application Developer"
+      certificate: "React Application Developer",
+      certificateAddress: "https://app.pluralsight.com/profile/isaac-awonugba-11#0"
     },
     {
       id: 3,
       institution: "Scrum Assembly",
       icon: <Image src={ScrumAssemblyLogo} alt="Scrum Assembly logo" className="w-10 h-10"/>,
-      certificate: "International Scrum Developer"
+      certificate: "International Scrum Developer",
+      certificateAddress: "https://www.scrumassembly.org/Verify?Id=2a1d468e03531"
     }
   ]
 
