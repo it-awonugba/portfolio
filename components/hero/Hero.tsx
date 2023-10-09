@@ -40,7 +40,7 @@ function Hero() {
       </p>
       <div className="flex flex-col">
         <h2 className="text-xl mb-8">Trained and certified</h2>
-        <div className="flex flex-wrap gap-8 lg:gap-16">
+        <div className="flex flex-wrap gap-8 lg:gap-10">
           {
               certifications.map((certification) => <IconText {...certification} key={certification.id}/>)
           }
