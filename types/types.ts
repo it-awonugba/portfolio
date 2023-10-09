@@ -7,4 +7,5 @@ export type IconTextPropType = {
   institution: string;
   icon?: JSX.Element;
   certificate: string;
+  certificateAddress: string;
 }
