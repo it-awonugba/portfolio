@@ -13,9 +13,8 @@ export type IconTextPropType = {
 export type ProjectType = {
   id: number,
   title: string,
-  category: string,
+  description: string,
   repo: string,
-  role: string,
   snapshot: JSX.Element,
   url: string
 }
