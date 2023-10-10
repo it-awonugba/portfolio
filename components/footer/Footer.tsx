@@ -6,7 +6,7 @@ import {
 } from "react-icons/bi";
 export default function Footer() {
   return (
-    <footer className="flex flex-col text-white space-y-6 py-24 border-t border-t-zinc-100">
+    <footer className="flex flex-col text-white space-y-6 py-24 border-t border-t-slate-50">
       <h2 className="text-3xl font-semibold">Isaac Awonugba</h2>
       <p>
         A Frontend Developer looking to turn your design into pixel perfect
