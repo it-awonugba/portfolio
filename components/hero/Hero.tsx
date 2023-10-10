@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { SiUdacity, SiPluralsight } from "react-icons/si";
+import { SiUdacity, SiAndela } from "react-icons/si";
 import ScrumAssemblyLogo from "../../assets/img/scrumassembly.png";
 import IconText from "../iconText/IconText";
 
@@ -7,17 +7,17 @@ function Hero() {
   const certifications = [
     {
       id: 1,
-      institution: "Udacity sponsored by Bertelsmann",
+      institution: "Udacity",
       icon: <SiUdacity className="w-10 h-10"/>,
       certificate: "Frontend Web Development Nanodegree",
       certificateAddress: "https://confirm.udacity.com/e/48a2396a-c38c-11ed-ae7e-3b117adf5f13"
     },
     {
       id: 2,
-      institution: "Pluralsight sponsored by Meta",
-      icon: <SiPluralsight className="w-10 h-10"/>,
-      certificate: "React Application Developer",
-      certificateAddress: "https://app.pluralsight.com/profile/isaac-awonugba-11#0"
+      institution: "Andela",
+      icon: <SiAndela className="w-10 h-10"/>,
+      certificate: "Andela React Learning Program",
+      certificateAddress: "https://credsverse.com/credentials/e60a283a-2d3d-49d8-92cc-16e615b3ea7f"
     },
     {
       id: 3,
@@ -29,9 +29,9 @@ function Hero() {
   ]
 
   return (
-    <section className="flex flex-col py-32 text-white">
+    <section className="flex flex-col py-24 text-white">
       <h1 className="font-extrabold text-5xl md:text-8xl">Isaac Awonugba</h1>
-      <p className="font-semibold text-3xl md:text-5xl text-accent">
+      <p className="font-semibold text-3xl md:text-5xl text-accent_color">
         Frontend Developer
       </p>
       <p className="text-xl py-16 max-w-4xl">

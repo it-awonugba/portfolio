@@ -9,7 +9,7 @@ export default function Header() {
     <header className="flex flex-row justify-between mt-4 items-center z-0">
       <Link href="/">
         <Image
-          className="logo rounded-full outline outline-accent"
+          className="logo rounded-full outline outline-accent_color"
           src={logo}
           width={40}
           height={40}
