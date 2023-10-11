@@ -4,14 +4,14 @@ import { BiLogoGithub } from "react-icons/bi";
 
 function Project({title, description, repo, snapshot, url} : ProjectType) {
   return (
-    <figure className="w-full lg:w-1/2">
+    <figure className="max-w-lg">
             <div className="w-full mb-4">{snapshot}</div>
             <div className="text-white space-y-4">
-                <h3>{title}</h3>
+                <h3 className="text-xl">{title}</h3>
                 <p>{description}</p>
                 <figcaption className="flex justify-between font-medium">
-                    <Link href={repo} className="flex px-5 py-2 items-center rounded bg-accent"><BiLogoGithub /> Repo</Link>
-                    <Link href={url} className="px-5 py-2 rounded bg-accent">View</Link>
+                    <Link target="_blank" href={repo} className="flex px-5 py-2 space-x-2 items-center rounded bg-accent hover:bg-primary hover:outline hover:outline-accent"><BiLogoGithub /> <span>Repo</span></Link>
+                    <Link target="_blank" href={url} className="px-5 py-2 rounded bg-accent hover:bg-primary hover:outline hover:outline-accent">View</Link>
                 </figcaption>
             </div>
     </figure>
